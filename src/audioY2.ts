@@ -11,7 +11,7 @@ import axios from 'axios';
 import cheerio from 'cheerio';
 import { yotubeUrlId } from './yotubeUrlId';
 
-async function audioY2Convert(baseUrl: string) {
+export async function audioY2Convert(baseUrl: string) {
     const result = [];
     try {
         await axios({
