@@ -1,0 +1,37 @@
+{
+  "name": "Mp3DownloadY2Scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "scripts": {
+    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
+    "start": "node dist/audioY2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakai-web/Mp3DownloadY2Scraper.git"
+  },
+  "keywords": [
+    "yotubedownload",
+    "mp3",
+    "download",/
+  ],
+  "author": "hakai",
+  "bugs": {
+    "url": "https://github.com/hakai-web/Mp3DownloadY2Scraper/issues"
+  },
+  "homepage": "https://github.com/hakai-web/Mp3DownloadY2Scraper#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "typescript": "^4.5.5"
+  }
+}
